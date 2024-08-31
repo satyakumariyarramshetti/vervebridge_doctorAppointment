@@ -1,0 +1,108 @@
+.appointment-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(245, 245, 245, 0.9));
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.appointment-form:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.appointment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.appointment-form select,
+.appointment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.qr-code {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.qr-code h3 {
+  margin-bottom: 20px;
+}
+
+.doctor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.doctor-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px);
+}
+
+.doctor-card-head {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.doctor-card-head img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
+  margin-bottom: 10px;
+}
+
+.doctor-card-body {
+  padding: 15px;
+  color: #333;
+}
+
+.doctor-card-body p {
+  margin: 10px 0;
+}
